@@ -10,6 +10,7 @@ export class MatrixDisplayComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    matrix();
   }
 
 }
