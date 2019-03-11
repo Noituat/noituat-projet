@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { MatrixDisplayComponent } from './matrix-display/matrix-display.component';
 
 @Component({
   selector: 'app-root',

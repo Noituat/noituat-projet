@@ -3,3 +3,44 @@ body{
   margin: 0;
   background: #696969;
 }
+.header h1{
+  text-align: center;
+}
+
+a{
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 5px;
+  border: solid lightblue 2px;
+  border-radius: 5px;
+  background: lightgrey;
+}
+
+
+
+#menu{
+position: absolute;
+top: 8px;
+left: -14px;
+}
+
+#agenda{
+position: absolute;
+top: 8px;
+left: 44px;
+}
+#projects{
+position: absolute;
+top: 8px;
+left: 172px;
+}
+#files{
+position: absolute;
+top: 8px;
+left: 293px;
+}
+#login{
+position: absolute;
+top: 8px;
+left: 364px;
+}
