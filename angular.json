@@ -30,7 +30,6 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "src/assets/js/matrix_effect.js"
             ],
             "es5BrowserSupport": true
           },
