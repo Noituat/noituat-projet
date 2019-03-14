@@ -1,46 +1,69 @@
 body{
   padding: 0;
   margin: 0;
-  background: #696969;
 }
 .header h1{
+  text-align: center;
+  color: #f8f8f6;
+  border: solid #f8f8f6 6px;
+  height: 100px;
+  position: absolute;
+  width: 1908px;
+  margin: 0;
+  top: -12px;
+  left: 0px;
+  background-color: #221e22;
+  font-family: sans-serif;
+  line-height: 100px;
   text-align: center;
 }
 
 a{
-  margin-left: 20px;
+  margin-left: 16px;
   text-decoration: none;
   padding: 5px;
-  border: solid lightblue 2px;
+  color: #f8f8f6;
+  border: solid #f8f8f6 2px;
   border-radius: 5px;
-  background: lightgrey;
+  background: #565554;
+  width: 110px;
+  text-align: center;
+  font-family: sans-serif;
+
 }
 
+a:hover{
+  background-color: #84636b ;
+  transition: all 0.5s;
+  color: #221e22;
+  font-weight: bold;
+
+}
 
 
 #menu{
 position: absolute;
 top: 8px;
-left: -14px;
+left: -7px;
 }
 
 #agenda{
 position: absolute;
-top: 8px;
-left: 44px;
+top: 48px;
+left: -7px;
 }
 #projects{
 position: absolute;
-top: 8px;
-left: 172px;
+top: 48px;
+left: 120px;
 }
 #files{
 position: absolute;
-top: 8px;
-left: 293px;
+top: 48px;
+left: 247px;
 }
 #login{
 position: absolute;
 top: 8px;
-left: 364px;
+left: 120px;
 }
